@@ -1,0 +1,42 @@
+/* Main */
+.section-list {
+  list-style: none;
+}
+
+/* Portfolio filter */
+
+.btn {
+  background: #f5f4fa;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.btn.current {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Portfolio list */
+
+.project-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-item {
+  color: var(--title-text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}

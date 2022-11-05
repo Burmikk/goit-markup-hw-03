@@ -1,0 +1,87 @@
+/* Основной цвет текста #212121; */
+/* Второстепенный цвет текста #757575;*/
+/* Черный #000000; */
+/* Белый #ffffff;*/
+/* Цвет акцент #2196F3; */
+/* Белый прозрачный rgba(255, 255, 255, 0.6) */
+
+/* Main */
+
+/* Hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* Section*/
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  
+}
+
+.section-list {
+  list-style: none;
+}
+
+.features {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Section Our team */
+
+.position,
+.text {
+  color: var(--title-text-color);
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
