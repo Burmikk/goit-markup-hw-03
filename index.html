@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Студія</title>
 
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Modern-normolize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
@@ -20,8 +31,8 @@
   <body>
     <!-- Шапка сайту -->
     <header class="header">
-      <nav>
-        <a href="./index.html" class="logo-accent"> Web<span class="logo">Studio</span></a>
+      <nav class="container">
+        <a href="./index.html" class="logo accent"> Web<span class="logo">Studio</span></a>
 
         <ul class="site-nav">
           <li><a href="./index.html" class="link current">Студія</a></li>
@@ -29,20 +40,24 @@
           <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contact">
-        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-      </ul>
+      <div class="container">
+        <ul class="contact">
+          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
     </header>
     <!-- Основний контент -->
     <main>
       <!-- Герой -->
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="btn">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="btn">Замовити послугу</button>
+        </div>
       </section>
       <!-- Особливості -->
-      <section>
+      <section class="container">
         <h2>Особливості</h2>
         <ul class="section-list">
           <li>
