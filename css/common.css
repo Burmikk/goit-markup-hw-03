@@ -50,10 +50,9 @@ body {
   width: 1200px;
   /* outline: 2px solid green; */
 }
-.container:not(.hero.container, .header-content, .footer > .container) {
-  padding-top: 94px;
+/* .container:not(.hero.container, .header-content, .footer > .container) {
   padding-bottom: 94px;
-}
+} */
 .visually-hidden {
   position: absolute;
   width: 1px;
